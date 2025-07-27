@@ -37,10 +37,8 @@ This platform offers:
 > Watch the live working of the platform in this demo:  
 > [🔗 Click to view demo](https://drive.google.com/file/d/1_sntdeD37VIYmFqMiyf85B88rEZa0fkd/view?usp=drive_link)
 
-| Home Page | Login Page | Admin Panel | Donation Form |
-|-----------|------------|--------------|----------------|
-| | Home Page                      | Login Page                      | Admin Panel                     | Donation Form                   |
-| ![Home](image-1.jpg.png)    | ![Login](image-4.jpg.png)     | ![Admin](image-2.jpg.png)     | ![Form](image-3.jpg.png)      |
+| Home Page | Login Page | Admin Panel | Donation Form 
+| image-1.jpg.png    | image-4.jpg.png     |image-2.jpg.png   | image-3.jpg.png      |
 
 
 ---
