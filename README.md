@@ -41,7 +41,7 @@ This platform offers:
 |-----------|------------|--------------|----------------|
 | | Home Page                      | Login Page                      | Admin Panel                     | Donation Form                   |
 |--------------------------------|----------------------------------|----------------------------------|----------------------------------|
-| ![Home](images - 1.jpg)    | ![Login](images/frame-2.jpg)     | ![Admin](images/frame-3.jpg)     | ![Form](images/frame - 4.jpg)      |
+| ![Home](images - 1.jpg)    | ![Login](images-2.jpg)     | ![Admin](image-3.jpg)     | ![Form](images - 4.jpg)      |
 
 
 ---
