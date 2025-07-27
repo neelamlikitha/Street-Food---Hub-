@@ -38,7 +38,9 @@ This platform offers:
 > [🔗 Click to view demo](https://drive.google.com/file/d/1_sntdeD37VIYmFqMiyf85B88rEZa0fkd/view?usp=drive_link)
               |
 
-| ![Home](image-1.jpg)    | ![Login](image-2.jpg)     | ![Admin](image-3.jpg)     | ![Form](image-4.jpg)      |
+ | Home Page                      | Login Page                      | Admin Panel                     | Donation Form                   |
+| ![Home](image-1.jpg.png)    | ![Login](image-2.jpg.png)     | ![Admin](image-3.jpg.png)     | ![Form](image-4.jpg.png)      |
+
 
 
 ---
