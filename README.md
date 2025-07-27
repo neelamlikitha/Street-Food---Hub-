@@ -39,7 +39,7 @@ This platform offers:
 
 | Home Page | Login Page | Admin Panel | Donation Form |
 |-----------|------------|--------------|----------------|
-| ![Frame1](./frame_1.jpg) | ![Frame2](./frame_2.jpg) | ![Frame3](./frame_3.jpg) | ![Frame4](./frame_4.jpg) |
+| ![Frame1](./frame_1.jp) | ![Frame2](./frame_2.jpg) | ![Frame3](./frame_3.jpg) | ![Frame4](./frame_4.jpg) |
 
 ---
 
