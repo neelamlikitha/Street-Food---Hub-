@@ -35,7 +35,7 @@ This platform offers:
 
 > 📹 **Project Demo Video**  
 > Watch the live working of the platform in this demo:  
-> [🔗 Click to view demo](./6ea2eccb-fea4-43a7-b772-716ecf3ec0dc.mp4)
+> [🔗 Click to view demo](https://drive.google.com/file/d/1_sntdeD37VIYmFqMiyf85B88rEZa0fkd/view?usp=drive_link)
 
 | Home Page | Login Page | Admin Panel | Donation Form |
 |-----------|------------|--------------|----------------|
