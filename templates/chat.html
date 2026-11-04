@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street Vendor Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Background Slideshow -->
+    <div class="slideshow">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXLNfzYCcJLs7R3wiSr9_3vcbNyZU7F4wLvg&s" alt="bg1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhwO1moxWZh6JEvN7AOL9EGeaJrxnsg1kMRA&s" alt="bg2">
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,e_grayscale,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/3/6/66b327d1-7229-4c7e-a442-b86d767c9ff6_6f09e0e0-ef16-472e-991e-e3b51fa653e8.jpg" alt="bg3">
+        <img src="https://www.justdial.com/Jhansi/Bewafa-Momos-Indrapuri/9999PX510-X510-240209200910-A8W9_BZDET" alt="bg4">
+    </div>
+
+    <!-- Chat UI -->
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>💬 Chat Panel</h2>
+            <p style="color:lightsalmon ;">Logged in as <strong>{{ username }}</strong> | <a href="{{ url_for('logout') }}" style="color: aqua;">Logout</a></p>
+        </div>
+
+        <div class="chat-box">
+            {% for msg in messages %}
+                <div class="message">
+                    <strong>{{ msg.sender }}</strong> to <strong>{{ msg.receiver }}</strong>:<br>
+                    <span>{{ msg.content }}</span><br>
+                    <small>{{ msg.timestamp.strftime('%Y-%m-%d %H:%M') }}</small>
+                </div>
+            {% endfor %}
+        </div>
+
+        <form method="post" class="chat-form">
+            <input type="text" name="receiver" placeholder="To (username)" required>
+            <textarea name="message" placeholder="Type your message..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
